@@ -19,3 +19,20 @@ img {
   padding: 20px;
   border-radius: 80px;
 }
+
+a{
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.listas{
+  display:inline-flex;
+}
+
+section{
+  width: 500px;
+  border-color: blueviolet;
+  border-style: dashed;
+  display: inline-flex;
+}
