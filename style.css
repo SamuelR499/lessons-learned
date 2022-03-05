@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
+  line: height 2%;
+  font-size: 17px;
 }
 
 #cabecalho {
@@ -40,5 +43,12 @@ article {
 section {
   border-color: red;
   border-style: dotted;
-  
+}
+
+footer {
+ margin: 10px;
+ background-color: black;
+ color: white;
+ padding: 40px;
+ width: 100%;
 }
