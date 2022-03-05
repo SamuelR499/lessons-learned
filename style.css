@@ -1,21 +1,22 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Montserrat', sans-serif;
-  line: height 2%;
-  font-size: 17px;
+  line-height: 1.86;
+
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 70%);
-  height: 100px;
+  height: 130px;
   width: 100%;
   color: white;
 }
 
 #titulo {
   text-align: center;
+  font-size: 2em;
 }
 
 img {
@@ -33,6 +34,9 @@ a {
 
 .listas {
   display: inline-flex;
+  line-height: 1.6;
+  font-size: 14px;
+  width: 100%;
 }
 
 article {
@@ -46,9 +50,17 @@ section {
 }
 
 footer {
- margin: 10px;
- background-color: black;
- color: white;
- padding: 40px;
- width: 100%;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  padding: 40px;
+  width: 100%;
+}
+
+.lado-esquerdo{
+display: flex;
+}
+
+.lado-direito{
+display: flex;
 }
