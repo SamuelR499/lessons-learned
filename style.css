@@ -41,7 +41,7 @@ a {
 
 article {
   border-color: blue;
-  border-style:groove;
+  border-style: groove;
 }
 
 section {
@@ -57,10 +57,10 @@ footer {
   width: 100%;
 }
 
-.lado-esquerdo{
-display: flex;
+.lado-esquerdo {
+  display: flex;
 }
 
-.lado-direito{
-display: flex;
+.lado-direito {
+  display: flex;
 }
