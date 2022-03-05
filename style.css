@@ -5,9 +5,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 50%);
+  background-color: rgba(0, 0, 0, 70%);
   height: 100px;
   width: 100%;
+  color: white;
 }
 
 #titulo {
@@ -20,19 +21,24 @@ img {
   border-radius: 80px;
 }
 
-a{
-  color: black;
+a {
+  color: white;
   font-weight: bolder;
   text-decoration: none;
+  padding-left: 20px;
 }
 
-.listas{
-  display:inline-flex;
-}
-
-section{
-  width: 500px;
-  border-color: blueviolet;
-  border-style: dashed;
+.listas {
   display: inline-flex;
+}
+
+article {
+  border-color: blue;
+  border-style:groove;
+}
+
+section {
+  border-color: red;
+  border-style: dotted;
+  
 }
